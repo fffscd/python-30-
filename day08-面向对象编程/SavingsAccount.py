@@ -1,4 +1,5 @@
 # 子类：储蓄账户（SavingsAccount）
+from BankAccount import BankAccount
 class SavingsAccount(BankAccount):
     def __init__(self, owner, balance=0, interest_rate=0.02):
         super().__init__(owner, balance)
